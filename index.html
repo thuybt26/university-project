@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPT University</title>
+  <style>
+    /* CSS cho gallery */
+    .gallery {
+      display: flex;              /* sắp xếp ngang */
+      justify-content: center;    /* căn giữa */
+      gap: 20px;                  /* khoảng cách giữa các ảnh */
+      margin-top: 20px;
+    }
+
+    .gallery figure {
+      text-align: center;         /* căn giữa chú thích */
+    }
+
+    .gallery img {
+      width: 300px;               /* chiều rộng cố định */
+      height: 200px;              /* chiều cao cố định */
+      object-fit: cover;          /* cắt ảnh vừa khung, không méo */
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .gallery figcaption {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FPT University</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>FPT University is one of Vietnam’s leading private universities, known for innovation, technology, and international integration.</p>
+    </section>
+
+    <section>
+      <h2>Quick Facts</h2>
+      <ul>
+        <li>Founded: 2006</li>
+        <li>Campuses: Hanoi, Ho Chi Minh City, Danang</li>
+        <li>Focus: Technology, Business, Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Best Private Universities in Vietnam</h2>
+      <ol>
+        <li>FPT University</li>
+        <li>RMIT Vietnam</li>
+        <li>Hoa Sen University</li>
+        <li>Van Lang University</li>
+        <li>Ton Duc Thang University</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/campus_hanoi.jpg" alt="FPT University Hanoi Campus">
+          <figcaption>FPT University Hanoi</figcaption>
+        </figure>
+        <figure>
+          <img src="images/campus_hcm.jpg" alt="FPT University Ho Chi Minh Campus">
+          <figcaption>FPT University Ho Chi Minh</figcaption>
+        </figure>
+        <figure>
+          <img src="images/campus_danang.jpg" alt="FPT University Danang Campus">
+          <figcaption>FPT University Danang</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Thuybt26</p>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
